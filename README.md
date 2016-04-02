@@ -4,6 +4,9 @@ The SSAO is an ontology of the space situational awareness (SSA) domain. The dom
 ##Publications##
 * _“Preliminaries of a Space Situational Awareness Ontology”_, Robert John Rovetto, T.S. Kelso. (Forthcoming) Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
 
+* _“An Ontological Architecture for Orbital Debris Data”_, Robert J. Rovetto (Aug 6 2015) Earth Science Informatics, 9(1), 67-82 (submitted 2014). Springer Berlin Heidelberg. DOI: 10.1007/s12145-015-0233-3 
+URL= http://link.springer.com/article/10.1007/s12145-015-0233-3
+
 ##Status##
 Seeking opportunities to sustainably develop this long-standing project. Seeking...
 * funding, 
