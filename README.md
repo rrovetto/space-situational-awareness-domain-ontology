@@ -1,5 +1,5 @@
 # The Space Situational Awareness Ontology (SSAO)
-The SSAO is an ontology of the SSA domain. The domain includes objects in the space environment, which includes orbital and near-Earth space. It involves observation, detection, identificaiton, tracking and propogation (predition of future behavior or motion) of objects in space. The central focus is awareness of the space environment surrounding Earth to ensure safety and security of Earth and space-borne assetts (satellites, etc.) 
+The SSAO is an ontology of the space situational awareness (SSA) domain. The domain includes objects in the space environment, which includes orbital and near-Earth space. It focuses on the relationships between objects near Earth (or any planetary reference frame). It involves observation, detection, identificaiton, tracking and propogation (predition of future behavior or motion) of objects in space. The central focus is awareness of the space environment surrounding Earth to ensure safety and security of Earth and space-borne assetts (satellites, etc.) 
 
 ##Publications##
 * _“Preliminaries of a Space Situational Awareness Ontology”_, Robert John Rovetto, T.S. Kelso. (Forthcoming) Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
@@ -19,7 +19,7 @@ Ontology creator: Robert J. Rovetto, Univ.Maryland Alum (2007), SUNY Alum (2011)
 Email: rrovetto@terpalum.umd.edu, ontologos@yahoo.com
 
 ##Note##
-Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO). As I've conceived it, thus far, SDO is the most general, followed by SSAO, and then SOO. Further development required on these considerations.
+Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO). As I've conceived it, thus far, SDO is most general, followed by SSAO, and then SOO. Further development required on these considerations.
 
 ##License##
 Give attribution. (c) Copyright 2011-2016 Robert J. Rovetto.
