@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rrovetto/ontologies/2014/ssao"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rrovetto/ontologies/2014/ssao">
+    <Prefix name="" IRI="http://www.semanticweb.org/rrovetto/ontologies/2014/ssao"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="#References"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">“An Ontological Architecture for Orbital Debris Data”, Robert J. Rovetto (Aug 6 2015) Earth Science Informatics, 9(1), 67-82 (submitted Dec 2014). Springer Berlin Heidelberg. 
+URL= http://link.springer.com/article/10.1007/s12145-015-0233-3 , DOI: 10.1007/s12145-015-0233-3
+
+“Preliminaries of a Space Situational Awareness Ontology”, Robert John Rovetto, T.S. Kelso. Forthcoming in Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
+
+&quot;Space Object Ontology[...] (under review as of 2016)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#Description"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Space Situational Awareness Ontology (SSAO) is an ontology of the SSA domain, which is construed to include the orbital and near-Earth space environment (to be defined later), the entities (objects, phenomena, ontological relations, etc.) therein, their interaction, and that of the processes by which we attain knowledge and situational awareness of that environment. The latter includes the observation, detection, tracking and prediction processes, the sensor networks utilized in these processes and the space sensor data.
+
+This ontology is an generalized expansion of the original ideas presented in (Rovetto, 2015, Earth Science Informatics) but conceived in 2011 (correspondence available upon request to verify), and described in (Rovetto and Kelso, 2016). It is part of an overall project vision to help the SSA and space communinties solve the orbital debris problem by sharing more SSA data, and improving our SSA to better protect the Earth and our space-based assetts (persons, satellites and infrastructure).
+
+The ontology creator (Rovetto) seeks to find sustainable opportunnities to fully realize this project: educational (phd, or ms), professional (research positions, internship, etc. for a space ageny or company), and cooperative partnerships with professionals in ontology, SSA, astronautics and astrodynamics. Rovetto seeks to complete a space degree.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#Ontology_Creator"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Robert John Rovetto
+Formal Ontologist, Space Ontologist, Philosopher, Researcher
+University of Maryland, College Park Alumnus (2007)
+State University of New York at Buffalo Alumnus (2011)
+Email: rrovetto@terpalum.umd.edu, ontologos@yahoo.com, rrovetto@buffalo.edu</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Near_Earth_Space_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Celestial_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplers_Laws_of_Planetary_Motion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Plane"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_orbit_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_instance_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sun_Synchronous_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Two-line_Element_Set"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_physical_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Search_and_Rescue_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_periapsis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Russian_SSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causally_determines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Ground-based_Space_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_State_Vector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_orbital_eccentricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_TwoLineElementSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Prograde_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#True_Anomaly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space_Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Inclination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#TLE_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geocentric_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_Space_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Polar_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_apogee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Equal_Areas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Semi_Synchronous_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collided_with"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situatuonal_Awareness_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Fragment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit_1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Eccentricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graveyard_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estimates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#US_SSN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Molniya_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planet-Centric_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Eccentric_Anomaly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navigational_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_apoapsis"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#References"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Data_Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orbital_Space_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Cislunar_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Spacecraft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_orbital_inclination"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ontology_Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Right_Ascension_of_the_Ascending_Node"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_keplerian_orbital_parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Payload_Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stellar_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Ephemeris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Epoch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escape_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Mission-related_Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Space_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elliptical_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ontology_Curator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situational_Awareness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Perigee"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Source_Documents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_orbital_parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Plane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Non_Polar_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approximates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circular_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Medium_Earth_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Geosynchronous_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ontology_Creator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_collision_event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_perigee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Periapsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Ellipses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Rocket_Bodies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_RAAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space_Object_Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Highly_Elliptical_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Low_Earth_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satellite_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Spacecraft_Ejecta"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Comment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#orbits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earth_Observing_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Cartesian_Ephemeris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_cause_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#plays_role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor_B"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Argument_of_Perigee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Longitude_of_the_Ascending_Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communications_Satellite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stellar-Centric_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Mean_Anomaly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_geometric_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satelite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_role_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Surveillance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helio-Centric_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Semi-major_Axis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Defunct_Spacecraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Ephemeris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space_Artefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Geometric_Contruct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planetary_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Harmonics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space_Object_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Rocket_Debris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#ISON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geostationary_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Time_of_Periapsis_Passage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Retrograde_Orbit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_object_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space-based_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Epoch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_orbit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/ontologies/2015/11/SpaceObjectOntology#Clarifying_Remark"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Periapsis"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Perigee"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Periapsis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Cartesian_Ephemeris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Ephemeris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Cislunar_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Defunct_Spacecraft"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Eccentric_Anomaly"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Epoch"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Fragment"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <Class IRI="#Navigational_Satellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Geosynchronous_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Ground-based_Space_Sensor"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Highly_Elliptical_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Ephemeris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Ephemeris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Ellipses"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplers_Laws_of_Planetary_Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Equal_Areas"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplers_Laws_of_Planetary_Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Law_of_Harmonics"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplers_Laws_of_Planetary_Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Longitude_of_the_Ascending_Node"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Low_Earth_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Mean_Anomaly"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Medium_Earth_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Mission-related_Debris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Molniya_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Non_Polar_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Eccentricity"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Inclination"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Object"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Plane"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Plane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_State_Vector"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Geometric_Contruct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Payload_Debris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Plane"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Geometric_Contruct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Polar_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Prograde_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Retrograde_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Right_Ascension_of_the_Ascending_Node"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Longitude_of_the_Ascending_Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Rocket_Bodies"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Rocket_Debris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satelite"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Semi-major_Axis"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Keplerian_Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Semi_Synchronous_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space-based_Sensor"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Sensor"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Vehicle"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Spacecraft"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Spacecraft_Ejecta"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sun_Synchronous_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Time_of_Periapsis_Passage"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#True_Anomaly"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Two-line_Element_Set"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Data_Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_Satellite"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satelite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_Space_Object"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circular_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communications_Satellite"/>
+        <Class IRI="#Artificial_Satellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earth_Observing_Satellite"/>
+        <Class IRI="#Artificial_Satellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elliptical_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escape_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geocentric_Orbit"/>
+        <Class IRI="#Planet-Centric_Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geostationary_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graveyard_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helio-Centric_Orbit"/>
+        <Class IRI="#Stellar-Centric_Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Satellite"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satelite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Space_Object"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navigational_Satellite"/>
+        <Class IRI="#Artificial_Satellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Near_Earth_Space_Environment"/>
+        <Class IRI="#Space_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orbital_Space_Environment"/>
+        <Class IRI="#Space_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planet-Centric_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planetary_Body"/>
+        <Class IRI="#Natural_Celestial_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Search_and_Rescue_Satellite"/>
+        <Class IRI="#Artificial_Satellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space_Artefact"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space_Debris"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stellar-Centric_Orbit"/>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stellar_Body"/>
+        <Class IRI="#Natural_Celestial_Body"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situatuonal_Awareness_Network"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#ISON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situatuonal_Awareness_Network"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Russian_SSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satellite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Sensor_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#GPS_Satellite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#TLE_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situatuonal_Awareness_Network"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#US_SSN"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_apogee"/>
+        <ObjectProperty IRI="#has_apoapsis"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_perigee"/>
+        <ObjectProperty IRI="#has_periapsis"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Periapsis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Angle from line of nodes to satellite position vector.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Argument_of_Perigee</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Angle from line of nodes to satellite position vector.
+This term is used for geocentric orbits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Cartesian_Ephemeris</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Useful for propagating orbits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Epoch</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specified point in time. The temporal reference frame. The time at which the elements (a particular set) was taken/acquired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Mean_Anomaly</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Average of true anomaly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This section in need of structuring. Formal analysis of orbit classes and concepts required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Debris</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An object, in orbit, that has no useful function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Eccentricity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines the shape of the orbit.
+Describes the tilt of the orbit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Element</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The elements are the features, measures, or measurable factors/quantities required to identify an orbit.
+As such, they serve as necessary conditions, or identity conditions, of individual orbits.
+There are many ways to mathematically desccribe an orbit.
+Describe non-inertial orbital trajectories of the orbiting bodies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Inclination</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines the orientation of the orbit with respect to the Earth&apos;s equator.
+Symbol: i</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Orbital_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An object in orbit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Right_Ascension_of_the_Ascending_Node</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">For geocentric orbits.
+Defines the location of the ascending and descending orbit locations with respect to the Earth&apos;s equatorial plane.
+THe angle from the x-axis of the reference coordinate system to the line of nodes.
+Ex: the angle from vernal equinox direction to line of nodes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Satelite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An object orbiting or revolving around another</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Semi-major_Axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines the size of the orbit.
+Symbol: a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A physical object positioned in space (or the space environment).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situational_Awareness</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Situational awareness of the space environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Situatuonal_Awareness_Network</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A network of sensors that observes the space environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Space_Surveillance</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surveillance of the space environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#Time_of_Periapsis_Passage</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Time at which the satellite reaches periapsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/miopc/ontologies/2014/11/untitled-ontology-31#True_Anomaly</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines where the satellite is within the orbit with respect to perigee.
+The angle from perigee to the satellite&apos;s position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Artificial_Satellite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Satellite made by human beings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Artificial_Space_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A space object created by persons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Earth_Observing_Satellite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An Artificial Satellite whose function is Earth Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Natural_Celestial_Body</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An astonomical entity created by natural astronomical processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Natural_Satellite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Satellite made by natural astronomical processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Natural_Space_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A space object created by natural astronomical processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Comment"/>
+        <IRI>#Near_Earth_Space_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(For Def1) The definition of this class stems from that of Near Earth Objects (comets or asteroids whose perihelion extends to less than 1.3 AUs)
+(For Def2) I propose Definition2 because the furthers spatial points in the orbital path of NEO can be considered the boundaries of Near-Earth space. An alternative is to define the volume of space beyond 1.3 AU as Deep Space Environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Near_Earth_Space_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(DEF1) The space environment relative to Earth that extends to approximately 1.3 Astonomical Units.
+(DEF2) The space environment relative to Earth that extends to most distance appogee of all the NEO population.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Orbital_Space_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The space environment in which space objects are in orbit, or can maintain orbital motion about some central body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Space_Debris</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a space object that has no useful function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Space_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The astronomical environment where Earth (and other space obejcts) resides, causally interact in/with, and moves in/through.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Comment"/>
+        <IRI>#Space_Object_Contact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class takes an observation-centric stance, whereby being observed or detected is the threshold for classifying an object as a space object (space object contact).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Space_Object_Contact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A space object that has been detected by one or more sensers (e.g., radar telescope) or persons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/ontologies/2015/11/SpaceObjectOntology#Clarifying_Remark"/>
+        <IRI>#Space_Object_Role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This role class takes into account the location-relative aspect of something being considered a space object and the idea that objects in space are deemed Space Objects temporarily and by attribution, making the concept of role applicable. An object in orbit plays the Space Object role, but when on the surface of a celestial body it is not a space object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Space_Object_Role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A role played by a physical object in space.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
