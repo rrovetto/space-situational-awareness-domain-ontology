@@ -23,4 +23,5 @@ Ontology creator: Robert J. Rovetto, Univ.Maryland Alum (2007), SUNY at Buffalo 
 Email: rrovetto@terpalum.umd.edu
 
 ##License##
-Give attribution. (c) Copyright 2011-2016 Robert J. Rovetto.
+(c) Copyright 2011-2016 Robert J. Rovetto.
+Contact with questions, cooperative efforts, etc.
