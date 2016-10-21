@@ -40,5 +40,4 @@ Email: rrovetto@terpalum.umd.edu, ontologos@yahoo.com
 Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO). As I've conceived it, thus far, SDO is most general, followed by SSAO, and then SOO. Further development required on these considerations.
 
 ##License##
-Give attribution. 
-(c) Copyright 2011-2016 Robert J. Rovetto
+(c) Copyright 2011-2016 Robert J. Rovetto. All rights reserved.
