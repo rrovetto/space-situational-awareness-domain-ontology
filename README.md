@@ -34,7 +34,7 @@ Professors interested in applying to grants with me should contact my email belo
 
 ##Contact##
 Ontology creator: Robert J. Rovetto, Univ.Maryland Alum (2007), SUNY Alum (2011)
-Email: rrovetto@terpalum.umd.edu, ontologos@yahoo.com
+Email: rrovetto@terpalum.umd.edu
 
 ##Note##
 Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO). As I've conceived it, thus far, SDO is most general, followed by SSAO, and then SOO. Further development required on these considerations.
