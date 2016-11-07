@@ -1,0 +1,6 @@
+{
+  "name": "The Space Situational Awareness Ontology",
+  "tagline": "",
+  "body": "### Description\r\nThe SSA ontology (SSAO) files. The overall project is to apply ontology to the orbital domain in order to foster data-sharing, integration among orbital debris, space object and SSA catalogues and databases; automated reasoning, knowledge discovery and semantic and systems interoperability. As such it is related to the other repositories, each of which is conceived as either an ontology module in an ontology architecture for the overall orbital domain, or as a sub-domain part of a single ontology encompassing the overall domain.\r\n\r\n### Status\r\nUnder development, depending on opportunities to sustainably work on it.\r\nSubject to revision, merger with other ontologies in the Orbital Space Domain Ontology Project\r\n\r\n### Authors and References\r\nRobert J. Rovetto, rrovetto[at]terpalum.umd.edu\r\n\r\n### \r\n\r\n### Support or Contact\r\nRobert J. Rovetto, rrovetto[at]terpalum.umd.edu\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
