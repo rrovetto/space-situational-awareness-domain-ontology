@@ -1,4 +1,4 @@
-# The Space Situational Awareness Domain Ontology (SSAO)
+## The Space Situational Awareness Domain Ontology (SSAO)
  ## IMPORTANT UPDATE
  * NEW Project landing page: www.purl.org/space-ontology/ssao.
  * Future location of OWL file: www.purl.org/space-ontology/ssao.owl
