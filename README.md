@@ -1,5 +1,5 @@
 # The Space Situational Awareness Domain Ontology (SSAO)
- ##UPDATE## 
+ ##UPDATE
  * Contact *rrovetto[at]terpalum[dot]umd[dot]edu* for the SSAO OWL File (being moved to the following site). 
  * Visit www.purl.org/space-ontology/ssao for the project landing page.
  * Future location of OWL file: www.purl.org/space-ontology/ssao.owl 
