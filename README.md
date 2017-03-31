@@ -1,5 +1,5 @@
 # The Space Situational Awareness Domain Ontology (SSAO)
- ##UPDATE
+ ## UPDATE - IMPORTANT
  * Contact *rrovetto[at]terpalum[dot]umd[dot]edu* for the SSAO OWL File (being moved to the following site). 
  * Visit www.purl.org/space-ontology/ssao for the project landing page.
  * Future location of OWL file: www.purl.org/space-ontology/ssao.owl 
@@ -11,15 +11,15 @@ The overall project (http://purl.org/space-ontology) is to apply ontology to orb
 
 The focus is awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assetts (satellites, etc.). However, give the upper-level (more general/abstract) classification goal, the SSAO can be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
 
-##Status##
+## Status
 * Under development. Subject to revision. No claims to completeness are made.
 * SEEKING Opportuntiies and Partners to sustainably development on this ontology, such as...
 * Professors interested in applying to grants with me should contact my email below. Persons interested in potential co-authors should also contact me.
 
-##Example Application##
+## Example Application
 The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html] project at NASA by Dan O'Neil that is under development.
 
-##Publications
+## Publications
 * http://orcid.org/0000-0003-3835-7817 (on ORCID)
 * https://umd.academia.edu/ontologist (on Academia)
 
