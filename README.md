@@ -27,7 +27,7 @@ The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/s
 
 * [4] "[Orbital Space Environment and Space Situational Awareness Domain Ontology](http://ceur-ws.org/Vol-1660/ecs-paper1.pdf)", Rovetto, R.J. In CEUR workshop proceedings for The Joint Ontology Workshops, at the 9th International Conference of Formal Ontology for Information Systems (FOIS) Early Career Symposium, Annecy, France July 2016.
 
-##Contact##
+## Contact
 Ontology creator: Robert J. Rovetto
 * Research Affiliate, Center for Orbital Debris Education and Research, Univ.Maryland; 
 * Member of NASA 2017 Datanauts; 
@@ -35,8 +35,8 @@ Ontology creator: Robert J. Rovetto
 * Email: rrovetto@terpalum.umd.edu
 * Github: https://github.com/rrovetto/
 
-##Note##
+## Note
 Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO).
 
-##License##
+## License
 (c) Copyright 2011-2017 Robert J. Rovetto. All rights reserved.
