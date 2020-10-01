@@ -1,7 +1,7 @@
 ## The Space Situational Awareness Domain Ontology (SSAO)
  ## IMPORTANT UPDATE
- * NEW Project landing page: www.purl.org/space-ontology/ssao.
- * Future location of OWL file: www.purl.org/space-ontology/ssao.owl
+ * NEW Project landing page: https://purl.org/space-ontology/ssao.
+ * Future location of OWL file: https://purl.org/space-ontology/ssao.owl
  * Contact **rrovetto[at]terpalum[dot]umd[dot]edu** for the SSAO OWL File
  * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
 
@@ -36,7 +36,7 @@ Ontology creator: Robert J. Rovetto
 * Github: https://github.com/rrovetto/
 
 ## Note
-Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO).
+Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object ontology' (SOO).
 
 ## Rights
 © 2011-2020, Robert John Rovetto. All rights reserved.
