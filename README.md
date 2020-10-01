@@ -38,5 +38,5 @@ Ontology creator: Robert J. Rovetto
 ## Note
 Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object object' (SOO).
 
-## License
-(c) Copyright 2011-2017 Robert J. Rovetto. All rights reserved.
+## Rights
+© 2011-2020, Robert John Rovetto. All rights reserved.
