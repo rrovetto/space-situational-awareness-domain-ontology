@@ -4,6 +4,7 @@
  * Future location of OWL file: https://purl.org/space-ontology/ssao.owl
  * Contact **rrovetto[at]terpalum[dot]umd[dot]edu** for the SSAO OWL File
  * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
+ * If you find value in my work, please [support/donate here](https://gogetfunding.com/creating-meaning-full-space-terminologies-knowledge-models-for-space-safety/).
 
 The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a defined terminology for SSA concepts and objects. The scope of SSAO, and its domain, minimally includes that which affords awareness and knowledge of the orbital and near-Earth space environment. This includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities, e.g., in an Orbital Object Ontology, Orbital Event Ontology, etc. The relationships between these entities are also critical to fully capture the overall orbital space environment domain[3][4]. These ontology architectures are under consideration.
 
