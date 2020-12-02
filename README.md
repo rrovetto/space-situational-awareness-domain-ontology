@@ -3,16 +3,16 @@
  * NEW Project landing page: https://purl.org/space-ontology/ssao.
  * Future location of OWL file: https://purl.org/space-ontology/ssao.owl
  * Contact **rrovetto[at]terpalum[dot]umd[dot]edu** for the SSAO OWL File
- * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
+ * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (http://purl.org/space-ontology) for a more centeralized and unified structure. This repository will remain onsite.
  * If you find value in my work, please [support/donate here](https://gogetfunding.com/creating-meaning-full-space-terminologies-knowledge-models-for-space-safety/).
 
 The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a defined terminology for SSA concepts and objects. The scope of SSAO, and its domain, minimally includes that which affords awareness and knowledge of the orbital and near-Earth space environment. This includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities, e.g., in an Orbital Object Ontology, Orbital Event Ontology, etc. The relationships between these entities are also critical to fully capture the overall orbital space environment domain[3][4]. These ontology architectures are under consideration.
 
-The overall project (http://purl.org/space-ontology) is to apply ontology to orbital data in order to foster data-sharing, integration among orbital debris, space object and other SSA databases; automated reasoning, knowledge discovery and semantic and systems interoperability. The focus is awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assetts (satellites, etc.). However, give the upper-level (more general/abstract) classification goal, the SSAO can be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
+The overall project (http://purl.org/space-ontology) is to apply ontology to orbital data in order to foster data-sharing, integration among orbital debris, space object and other SSA databases; automated reasoning, knowledge discovery and semantic and systems interoperability. The focus is awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assets (satellites, etc.). However, give the upper-level (more general/abstract) classification goal, the SSAO can be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
 
 ## Status
 * Under development. Subject to revision. No claims to completeness are made.
-* SEEKING Opportuntiies and Partners to sustainably development on this ontology, such as...
+* SEEKING Opportunities and Partners to sustainably development on this ontology, such as...
 * Professors interested in applying to grants with me should contact my email below; Stuentship for this as a PhD
 
 ## Example Application
