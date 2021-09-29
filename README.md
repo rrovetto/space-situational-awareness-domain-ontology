@@ -16,7 +16,7 @@ The overall project (http://purl.org/space-ontology) is to apply ontology to orb
 * Professors interested in applying to grants with me should contact my email below; Stuentship for this as a PhD
 
 ## Example Application
-The SSAO has been used by an (ontology-driver orrery)[https://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html] project at NASA by Dan O'Neil that is under development.
+The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.htm] project at NASA by Dan O'Neil that is under development.
 
 ## Publications
 * http://orcid.org/0000-0003-3835-7817 (on ORCID)
