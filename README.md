@@ -3,7 +3,7 @@
  * NEW Project landing page: https://purl.org/space-ontology/ssao.
  * Future location of OWL file: https://purl.org/space-ontology/ssao.owl
  * Contact **rrovetto[at]terpalum[dot]umd[dot]edu** for the SSAO OWL File
- * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
+ * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (see http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
  * If you find value in my work, please [support/donate here](https://gogetfunding.com/creating-meaning-full-space-terminologies-knowledge-models-for-space-safety/).
 
 The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a defined terminology for SSA concepts and objects. The scope of SSAO, and its domain, minimally includes that which affords awareness and knowledge of the orbital and near-Earth space environment. This includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities, e.g., in an Orbital Object Ontology, Orbital Event Ontology, etc. The relationships between these entities are also critical to fully capture the overall orbital space environment domain[3][4]. These ontology architectures are under consideration.
@@ -16,7 +16,7 @@ The overall project (http://purl.org/space-ontology) is to apply ontology to orb
 * Professors interested in applying to grants with me should contact my email below; Stuentship for this as a PhD
 
 ## Example Application
-The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.htm] project at NASA by Dan O'Neil that is under development.
+The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html] project at NASA by Dan O'Neil that is under development.
 
 ## Publications
 * http://orcid.org/0000-0003-3835-7817 (on ORCID)
@@ -43,6 +43,9 @@ Given the domain, synonymous names include: 'space domain ontology' (SDO), and '
 No warranty. Presented "AS IS". Author and copyright holder is not liable.
 All content, work and products are subject to revision. No claims to completeness. 
 
+### Support
+If you find value in my work, please [support/donate here](https://gogetfunding.com/knowledge-organization-services-ontology-terminology-metadata-concept-analysis/). Financial support is needed to sustain development.
 ## Copyright
 © 2011-2021, Robert John Rovetto. All right reserved.
 Not authorized for commercial use unless explicitly negotiated with the author. Citation/attribution required.
+No warranty. Presented "AS IS". Author and copyright holder is not liable. All content, work and products are subject to revision. No claims to completeness or complete accuracy.
