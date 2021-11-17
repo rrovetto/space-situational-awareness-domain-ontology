@@ -9,17 +9,21 @@ In addition to these SSA activities, observations & measurements, and events in 
 
 The SSAO is a modular part of [a broader project](http://purl.org/space-ontology), which aims to create a suite of ontologies for the space domain (broadly construed). Some goals are to explore the utility of applying ontology to SSA data, e.g., potential for data-sharing and fusion, data integration among space object catalogues and other SSA databases; automated reasoning, knowledge discovery and semantic and systems interoperability.
 
+![SSAO taxonomy portion - old](https://github.com/rrovetto/space-situational-awareness-domain-ontology/raw/master/images/SSAO_classPortion_old_rovetto.png)
+
 A focus is awareness of orbital space surrounding Earth, toward ensuring the safety and security of Earth and space-borne assetts (satellites, etc.). However, give the more generic (upper-level) classification goal, the SSAO aims to be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to potentially facilitate data-sharing and integration among disparate data sources.
 
+![SSAO idea](https://github.com/rrovetto/space-situational-awareness-domain-ontology/raw/master/images/SSAOIDEA.JPG)
 
 ## Example Applications
 The SSAO has been used by an [ontology-driver orrery](http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html) project by NASA's [Dan O'Neil](https://github.com/daoneil/spacemission/tree/master/OntologyDrivenOrrery). This work resulted in [this NASA Technical document](https://ntrs.nasa.gov/citations/20210000030).
 
 ## Status
-* Under development. Subject to revision. 
-* Formal support is needed: financial, educaitonal, technical support is need to sustain development. As unfunded work, donations and sponsors are welcome and appreciated. 
-* **SEEKING**funded opportunities and partners to sustainably development the SSAO
+* Under development. Subject to revision. As unfunded work, donations and sponsors are welcome and appreciated. 
+* **Formal support is needed**: financial, educaitonal, technical support is need to sustain development. 
 * Persons interested in applying to grants with the author should [contact](https://ontospace.wordpress.com/contact).
+
+![Presentation with author 2016 AAS/AIAA SFM Meeting](https://github.com/rrovetto/space-situational-awareness-domain-ontology/raw/master/images/SSAO%20Presentation_AIAA%20SFM%20Meeting%202016.JPG)
 
 ## Author / Creator / Developer
 Robert J. Rovetto
