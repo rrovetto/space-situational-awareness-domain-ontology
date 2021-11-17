@@ -1,6 +1,6 @@
 **NOTE: The SSAO owl file and other content in the SSAO github repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project for more centralize storage. The [SSAO GitHub repository](https://github.com/rrovetto/space-situational-awareness-domain-ontology) will remain onsite for the time being, but will have a pointer to the above and to a link to the owl file.**
 
-##Description##
+## Description
 The SSA ontology (SSAO) is an ontology of the space situational awareness (SSA) domain [2], aka the space domain. It provides a defined terminology for SSA concepts and objects. It includes categories and non-categorical relations fomrally defined in computable languages. These constructs are linked in a manner to mirror the target domain. The scope of SSAO, and its domain, minimally includes that which affords awareness and knowledge of the orbital and near-Earth space environment. This consists of observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit. 
 
 In addition to these SSA activities, observations & measurements, and events in orbit & the orbital objects themselves must be ontologically represented. The relationships between these entities are also critical to fully capture the overall orbital space environment domain [3][4]. Ontology terms for these entities may constitute sub-domain space ontologies--such as the orbital debris ontology, the orbital event ontology, and so forth, each of which can be imported into the SSAO. Alternatively, such terms can be terms directly part of the SSAO. These ontology architectures are under consideration. 
@@ -18,7 +18,7 @@ The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/s
 * **SEEKING**funded opportunities and partners to sustainably development the SSAO
 * Professors interested in applying to grants with me should contact my email below. Persons interested in potential co-authors should also contact me.
 
-##Contact##
+## Contact
 **Ontology creator**: Robert J. Rovetto, Univ.Maryland Alum (2007), SUNY Alum (2011)
 Email: rrovetto[at]terpalum.umd.edu
 
