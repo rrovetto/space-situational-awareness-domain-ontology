@@ -10,7 +10,7 @@ The SSAO is a modular part of [a broader project](http://purl.org/space-ontology
 A focus is awareness of orbital space surrounding Earth, toward ensuring the safety and security of Earth and space-borne assetts (satellites, etc.). However, give the more generic (upper-level) classification goal, the SSAO aims to be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
 
 ## Example Applications
-The SSAO has been used by an (ontology-driver orrery)[http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html] project at NASA by [Dan O'Neil](https://github.com/daoneil/spacemission/tree/master/OntologyDrivenOrrery). This work resulted in [this NASA Technical document](https://ntrs.nasa.gov/citations/20210000030).
+The SSAO has been used by an [ontology-driver orrery](http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html) project by NASA's [Dan O'Neil](https://github.com/daoneil/spacemission/tree/master/OntologyDrivenOrrery). This work resulted in [this NASA Technical document](https://ntrs.nasa.gov/citations/20210000030).
 
 ## Status
 * Under development. Subject to revision. No claims to completeness are made. The name and scope of the ontology, and its relation to the authors other ontologies is subject to revision. 
