@@ -7,27 +7,26 @@ In addition to these SSA activities, observations & measurements, and events in 
 
 The SSAO is a modular part of [a broader project](http://purl.org/space-ontology), which aims to create a suite of ontologies for the space domain (broadly construed). Some goals are to explore the utility of applying ontology to SSA data, e.g., potential for data-sharing and fusion, data integration among space object catalogues and other SSA databases; automated reasoning, knowledge discovery and semantic and systems interoperability.
 
-A focus is awareness of orbital space surrounding Earth, toward ensuring the safety and security of Earth and space-borne assetts (satellites, etc.). However, give the more generic (upper-level) classification goal, the SSAO aims to be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
+A focus is awareness of orbital space surrounding Earth, toward ensuring the safety and security of Earth and space-borne assetts (satellites, etc.). However, give the more generic (upper-level) classification goal, the SSAO aims to be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to potentially facilitate data-sharing and integration among disparate data sources.
+
+![SSAO PPT presentation slide](https://github.com/rrovetto/space-situational-awareness-domain-ontology/raw/master/images/SSAontology_PPTslide_2016_Rovetto.JPG)
 
 ## Example Applications
 The SSAO has been used by an [ontology-driver orrery](http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html) project by NASA's [Dan O'Neil](https://github.com/daoneil/spacemission/tree/master/OntologyDrivenOrrery). This work resulted in [this NASA Technical document](https://ntrs.nasa.gov/citations/20210000030).
 
 ## Status
-* Under development. Subject to revision. No claims to completeness are made. The name and scope of the ontology, and its relation to the authors other ontologies is subject to revision. 
-
+* Under development. Subject to revision. 
+* Formal support is needed: financial, educaitonal, technical support is need to sustain development. As unfunded work, donations and sponsors are welcome and appreciated. 
 * **SEEKING**funded opportunities and partners to sustainably development the SSAO
-* Professors interested in applying to grants with me should contact my email below. Persons interested in potential co-authors should also contact me.
+* Persons interested in applying to grants with the author should [contact](https://ontospace.wordpress.com/contact).
 
-## Contact
-**Ontology creator**: Robert J. Rovetto, Univ.Maryland Alum (2007), SUNY Alum (2011)
-Email: rrovetto[at]terpalum.umd.edu
+## Author / Creator / Developer
+Robert J. Rovetto
 
-## Publications##
-* [1]_“[An Ontological Architecture for Orbital Debris Data](http://link.springer.com/article/10.1007/s12145-015-0233-3)”_, Rovetto, R.J. (Aug 6 2015) Earth Science Informatics, 9(1), 67-82 (submitted 2014). Springer Berlin Heidelberg. DOI: 10.1007/s12145-015-0233-3
+## Selected Publications
+* [1]“[An Ontological Architecture for Orbital Debris Data](http://link.springer.com/article/10.1007/s12145-015-0233-3)”, Rovetto, R.J. (Aug 6 2015) Earth Science Informatics, 9(1), 67-82 (submitted 2014). Springer Berlin Heidelberg. DOI: 10.1007/s12145-015-0233-3
+* [2]“[Preliminaries of a Space Situational Awareness Ontology](https://arxiv.org/ftp/arxiv/papers/1606/1606.01924.pdf)”, Rovetto,R.J. & T.S. Kelso. (Forthcoming) Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
+* [3]"[The Orbital Space Environment and Space Situational Awareness Domain Ontology – Towards an International Information System for Space Data](http://www.amostech.com/TechnicalPapers/2016/Poster/Rovetto.pdf)", Rovetto, R.J. The Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS) 2016, (Paper, and Poster presentation)
 
-* [2]_“[Preliminaries of a Space Situational Awareness Ontology](https://arxiv.org/ftp/arxiv/papers/1606/1606.01924.pdf)”_, Rovetto,R.J. & T.S. Kelso. (Forthcoming) Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
-
-* [3]_"[The Orbital Space Environment and Space Situational Awareness Domain Ontology – Towards an International Information System for Space Data](http://www.amostech.com/TechnicalPapers/2016/Poster/Rovetto.pdf)", Rovetto, R.J. The Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS) 2016, (Paper, and Poster presentation)
-
-##License##
-(c) Copyright 2011-2016 Robert J. Rovetto. All rights reserved.
+## Copyright
+(c) Copyright 2011-2022, Robert J. Rovetto. All rights reserved.
