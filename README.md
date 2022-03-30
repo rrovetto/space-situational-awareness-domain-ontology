@@ -2,7 +2,7 @@
  ## IMPORTANT UPDATE
  * NEW Project landing page: https://purl.org/space-ontology/ssao.
  * Future location of OWL file: https://purl.org/space-ontology/ssao.owl
- * Contact **rrovetto[at]terpalum[dot]umd[dot]edu** to purchase the SSAO OWL File
+ * [Contact here](https://ontospace.wordpress.com/contact) to discuss purchasing use of the SSAO OWL File
  * The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (see http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
  * If you find value in my work, please [support/donate here](https://gogetfunding.com/creating-meaning-full-space-terminologies-knowledge-models-for-space-safety/).
 
@@ -12,7 +12,7 @@ The overall project (http://purl.org/space-ontology) is to apply ontology to orb
 
 ## Status
 * Under development. Subject to revision. No claims to completeness are made.
-* SEEKING Opportuntiies and Partners to sustainably development on this ontology, such as...
+* As a personal project, donations are welcome, and formal support is needed to sustain development to realize the project vision. SEEKING patrons, sponsors, employer support, grants, funding, etc. 
 * Professors interested in applying to grants with me should contact my email below; Stuentship for this as a PhD
 
 ## Example Application
