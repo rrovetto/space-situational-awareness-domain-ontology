@@ -10,9 +10,10 @@ The SSA ontology is an ontology of the space situational awareness (SSA) domain 
 
 The overall project (http://purl.org/space-ontology) is to apply ontology to orbital data in order to foster data-sharing, integration among orbital debris, space object and other SSA databases; automated reasoning, knowledge discovery and semantic and systems interoperability. The focus is awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assetts (satellites, etc.). However, give the upper-level (more general/abstract) classification goal, the SSAO can be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
 
-## Status
-* Under development. Subject to revision. No claims to completeness are made.
-* As a personal project, donations are welcome, and formal support is needed to sustain development to realize the project vision. SEEKING patrons, sponsors, employer support, grants, funding, etc. 
+## Status & Access
+* In-progress. Subject to revision. No claims to completeness are made.
+* As a personal unfunded project since inception, funding/sponsors and work collaborations are needed to continue, complete and sustain development and realize the project vision. 
+* Donations are welcome. SEEKING patrons, sponsors, employer support, grants, funding, etc. 
 * Professors interested in applying to grants with me should contact my email below; Stuentship for this as a PhD
 
 ## Example Application
