@@ -9,7 +9,7 @@
 The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a conceptual model of the relevant concepts and entities, and both (un)defined terminology for SSA. 
 
 ### Scope 
-The scope of SSAO, and its domain, minimally includes that which affords awareness and knowledge of a given outer space environment, more notably the orbital and near-Earth space environment. As such, it provides a generic conceptual model applicable to any space environment, while also applicable to Earth. The scope includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities for a more modular architecture, e.g., in an [Orbital Object Ontology](https://github.com/rrovetto/The-Orbital-Object-Ontology), [Orbital Event Ontology](https://github.com/rrovetto/orbital-event-ontology), etc. The relationships between these entities are also critical to fully capture the overall space domain [3][4]. 
+The scope of SSAO, and its domain, is subject to revision, but minimally includes that which affords awareness and knowledge of a given outer space environment, more notably the orbital and near-Earth space environment. As such, it provides a generic conceptual model applicable to any space environment, while also applicable to Earth. The scope includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities for a more modular architecture, e.g., in an [Orbital Object Ontology](https://github.com/rrovetto/The-Orbital-Object-Ontology), [Orbital Event Ontology](https://github.com/rrovetto/orbital-event-ontology), etc. The relationships between these entities are also critical to fully capture the overall space domain [3][4]. 
 
 ### Architecture 
 Various ontology architectures are under consideration. A self-contained module, usable by itself, but also part of the author's wider space domain knowledge modeling suite of ontologies and other knowledge organization systems.
@@ -23,6 +23,9 @@ The focus is awareness of orbital space surrounding Earth, toward ensuring safet
 * To facilitate content search and retrival
 * ...
 The overall project (http://purl.org/space-ontology) is to apply ontology to space data for various potential applications, such as data-sharing; integration among orbital debris, space object catalogues, and other SSA databases; automated reasoning, knowledge discovery, semantic search, and interoperability.
+
+### Example Application
+The SSAO has been used in an ontology-oriented orrery project at NASA by Dr. D.A. O'Neil, presenting two 3D visualizaitons, [one here](http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html) and [one here](https://daoneil.github.io/spacemission/RMarkdown/ontology_based_orrery_generated_from_R_code.html) 
 
 ### Status
 * In-progress as circumstances permit. Subject to revision. 
@@ -42,18 +45,12 @@ As an unfunded personal project, you can help by offerring financial support, em
 * [Contact here](https://ontospace.wordpress.com/contact) if interested in purchasing use of the SSAO OWL File.
 * With sufficient formal support, a version may become open. 
 
-## Example Application
-The SSAO has been used in an ontology-oriented orrery project at NASA by Dr. D.A. O'Neil, presenting two 3D visualizaitons, [one here](http://daoneil.github.io/spacemission/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html) and [one here](https://daoneil.github.io/spacemission/RMarkdown/ontology_based_orrery_generated_from_R_code.html) 
-
 ## Relevant Publications & Presentations
 * [1] [“An Ontological Architecture for Orbital Debris Data”](http://link.springer.com/article/10.1007/s12145-015-0233-3), Robert J. Rovetto (Aug 6 2015) Earth Science Informatics, 9(1), 67-82 (submitted 2014). Springer Berlin Heidelberg. DOI: 10.1007/s12145-015-0233-3
 * [2] “[Preliminaries of a Space Situational Awareness Ontology](https://arxiv.org/ftp/arxiv/papers/1606/1606.01924.pdf)”, Rovetto,R.J. & T.S. Kelso. 
 In Advances in Astronautical Sciences, Univelt. Presented at 26th AIAA/AAS Space Flight Mechanics meeting, Napa, CA, USA Feb 14-18th, 2016.
 * [3]  "[The Orbital Space Environment and Space Situational Awareness Domain Ontology – Towards an International Information System for Space Data](http://www.amostech.com/TechnicalPapers/2016/Poster/Rovetto.pdf)", Rovetto, R.J. The Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS) 2016, (Paper, and Poster presentation)
 * [4] "[Orbital Space Environment and Space Situational Awareness Domain Ontology](http://ceur-ws.org/Vol-1660/ecs-paper1.pdf)", Rovetto, R.J. In CEUR workshop proceedings for The Joint Ontology Workshops, at the 9th International Conference of Formal Ontology for Information Systems (FOIS) Early Career Symposium, Annecy, France July 2016.
-
-## Note
-Given the domain, synonymous names include: 'space domain ontology' (SDO), and 'space object ontology' (SOO).
 
 ## Author - Contact
 [Robert J. Rovetto](http://orcid.org/0000-0003-3835-7817) - [Space Ontologist](https://purl.org/space-ontology)
