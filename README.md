@@ -6,19 +6,18 @@
  * NOTE: The content of this repository is being moved to https://github.com/rrovetto/Orbital-Space-Ontology-Project (see http://purl.org/space-ontology) for a more centeralized and unified struture. This repository will remain onsite.
  
 ## Description
-The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a conceptual model of the relevant concepts and entities, and both (un)defined terminology for SSA. 
+The SSA ontology is an ontology of the space situational awareness (SSA) domain [2]. It offers a conceptual model of the relevant concepts and entities, and both (un)defined terminology for SSA. SSAO aims to formally and computationally represent the relationships between astronomical entiteis, such as objects near Earth (or other  planetary reference frames), and annotate orbital and other SSA content to help with various applicaitons.
 
 ### Scope 
-The scope of SSAO, and its domain, is subject to revision, but minimally includes that which affords awareness and knowledge of a given outer space environment, more notably the orbital and near-Earth space environment. As such, it provides a generic conceptual model applicable to any space environment, while also applicable to Earth. The scope includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities for a more modular architecture, e.g., in an [Orbital Object Ontology](https://github.com/rrovetto/The-Orbital-Object-Ontology), [Orbital Event Ontology](https://github.com/rrovetto/orbital-event-ontology), etc. The relationships between these entities are also critical to fully capture the overall space domain [3][4]. 
+The scope of SSAO, and its domain, is subject to revision, but minimally includes that which affords awareness and knowledge of a given outer space environment, more notably the orbital and near-Earth space environment. As such, it provides a generic conceptual model applicable to any space environment and central body, while also applicable to Earth. The scope includes: observation, detection, identification, tracking, re-identification, and propagation (prediction of future behavior/motion) activities of objects in orbit; and data thereof. In addition to these SSA activities, the SSA domain can be construed to extend to the objects (satellites) and events in orbit. Sub-domain ontologies can alternatively represent these entities for a more modular architecture, e.g., in an [Orbital Object Ontology](https://github.com/rrovetto/The-Orbital-Object-Ontology), [Orbital Event Ontology](https://github.com/rrovetto/orbital-event-ontology), etc. The relationships between these entities are also critical to fully capture the overall space domain [3][4]. 
 
 ### Architecture 
 Various ontology architectures are under consideration. A self-contained module, usable by itself, but also part of the author's wider space domain knowledge modeling suite of ontologies and other knowledge organization systems.
 
-The focus is awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assetts (satellites, etc.). However, give the upper-level (more general/abstract) classification goal, the SSAO can be generalized to any central body. SSAO aims to formally and computationally represent the relationships between objects near Earth (or any planetary reference frame), and annotate orbital and other SSA instance data to facilitate data-sharing and integration among
-
 ### Purpose & Value
 * To support SSA, space safety and sustainability
 * To mitigate orbital debris hazards
+* A focus application is facilitating awareness of orbital space surrounding Earth, toward ensuring safety and security of Earth and space-borne assetts (satellites, etc.). 
 * To innovate by exploring the utility of ontology and related systems to spaceflight and other space topics
 * To facilitate content search and retrival
 * ...
